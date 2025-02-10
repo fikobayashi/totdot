@@ -25,12 +25,12 @@ li, h1, h2, ul {
 } */
 
 .parallax1 {
-  background: url('/img/imagem-5.jpeg') no-repeat center center;
+  background: url('../img/imagem-5.jpeg') no-repeat center center;
   position: absolute;
 }
 
 .parallax2 {
-  background: url('/img/imagem-2.jpeg') no-repeat center center;
+  background: url('../img/imagem-2.jpeg') no-repeat center center;
 }
 
 /* .parallax3 {
