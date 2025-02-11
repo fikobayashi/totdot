@@ -78,10 +78,11 @@ li, h1, h2, ul {
 .menu {
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .menu a {
-  padding: 15px;
+  /* padding: 15px; */
   color: aliceblue;
   text-decoration: none;
 }
@@ -154,9 +155,11 @@ li, h1, h2, ul {
 }
 
 @media (max-width: 375px) {
+  .menu {
+    gap: 20px;
+  }
  
   .menu a {
-    padding: 5px;
     font-size: .8rem;
   }
 }
