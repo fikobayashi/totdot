@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-
 }
 
 body {
@@ -76,6 +75,7 @@ li, h1, h2, ul {
   width: auto;
 }
 
+
 .menu a {
   padding: 15px;
   color: aliceblue;
@@ -104,6 +104,7 @@ li, h1, h2, ul {
 .subtitulo {
   font-size: 1.5rem;
   letter-spacing: .1rem;
+  margin-bottom: 15px;
   color: #F1C820;
 }
 
@@ -125,7 +126,6 @@ li, h1, h2, ul {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-top: 8px;
 }
 
 .descricao>ul li::before {
@@ -150,8 +150,9 @@ li, h1, h2, ul {
 }
 
 @media (max-width: 375px) {
+ 
   .menu a {
-    padding: 8px;
+    padding: 5px;
     font-size: .8rem;
   }
 }
