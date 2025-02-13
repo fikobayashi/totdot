@@ -124,19 +124,23 @@ li, h1, h2, ul {
 }
 
 .descricao {
-  display: inline-block;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.descricao span.titulo {
+  display: inline-block;
   background-color: black;
   opacity: 0.6;
   padding: 20px;
   border-radius: 1px;
   text-transform: uppercase;
-  font-weight: lighter;
   font-size: 1.5rem;
-  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .canais {
@@ -152,12 +156,13 @@ li, h1, h2, ul {
 }
 
 @media (max-width: 375px) {
-  /* .menu {
-    gap: 20px;
-  } */
- 
   .menu a {
     font-size: .8rem;
   }
 }
 
+/* @media (max-width: 770px) {
+  .descricao span.titulo {
+    font-size: 1rem;
+  }
+} */
